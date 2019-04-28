@@ -1,0 +1,26 @@
+{
+  "name": "renovate-config-zce",
+  "version": "0.1.0-alpha.1",
+  "description": "Renovate config preset",
+  "keywords": [
+    "renovate-config-zce",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/renovate-config-zce#readme",
+  "bugs": {
+    "url": "https://github.com/zce/renovate-config-zce/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "zce",
+    "email": "w@zce.me",
+    "url": "https://zce.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/renovate-config-zce.git"
+  },
+  "renovate-config": {
+    "default": [ "config:base" ]
+  }
+}
