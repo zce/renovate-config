@@ -21,6 +21,8 @@
     "url": "git+https://github.com/zce/renovate-config-zce.git"
   },
   "renovate-config": {
-    "default": [ "config:base" ]
+    "default": {
+      "extends": [ "config:base" ]
+    }
   }
 }
