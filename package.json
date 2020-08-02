@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-zce",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0",
   "description": "Renovate config preset",
   "keywords": [
     "renovate-config-zce",
