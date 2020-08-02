@@ -4,11 +4,17 @@
   "description": "Renovate config preset",
   "keywords": [
     "renovate-config-zce",
+    "renovate-config",
+    "renovate",
     "zce"
   ],
   "homepage": "https://github.com/zce/renovate-config-zce#readme",
   "bugs": {
     "url": "https://github.com/zce/renovate-config-zce/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/renovate-config-zce.git"
   },
   "license": "MIT",
   "author": {
@@ -16,14 +22,12 @@
     "email": "w@zce.me",
     "url": "https://zce.me"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zce/renovate-config-zce.git"
-  },
   "renovate-config": {
     "default": {
       "description": "Default base configuration for zce",
-      "extends": [ "config:base" ]
+      "extends": [
+        "config:base"
+      ]
     }
   }
 }

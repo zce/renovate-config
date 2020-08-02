@@ -1,21 +1,35 @@
 # renovate-config-zce
 
-[![NPM Downloads][downloads-image]][downloads-url]
-[![NPM Version][version-image]][version-url]
-[![License][license-image]][license-url]
-[![Dependency Status][dependency-image]][dependency-url]
-[![devDependency Status][devdependency-image]][devdependency-url]
-[![Code Style][style-image]][style-url]
+[![NPM Downloads][downloads-img]][downloads-url]
+[![NPM Version][version-img]][version-url]
+[![License][license-img]][license-url]
+[![Dependency Status][dependency-img]][dependency-url]
+[![devDependency Status][devdependency-img]][devdependency-url]
+[![Code Style][style-img]][style-url]
 
-> Renovate config preset
+> My personal [renovate](https://renovate.whitesourcesoftware.com/) config preset.
 
 ## Usage
 
-Add config in your renovate.json like:
+`package.json` within a `renovate` section:
 
 ```json
 {
-  "extends": [ "zce" ]
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  }
+}
+```
+
+Or in the project root directory `renovate.json`:
+
+```json
+{
+  "extends": [
+    "zce"
+  ]
 }
 ```
 
@@ -36,15 +50,15 @@ Add config in your renovate.json like:
 
 
 
-[downloads-image]: https://img.shields.io/npm/dm/renovate-config-zce.svg
+[downloads-img]: https://img.shields.io/npm/dm/renovate-config-zce.svg
 [downloads-url]: https://npmjs.org/package/renovate-config-zce
-[version-image]: https://img.shields.io/npm/v/renovate-config-zce.svg
+[version-img]: https://img.shields.io/npm/v/renovate-config-zce.svg
 [version-url]: https://npmjs.org/package/renovate-config-zce
-[license-image]: https://img.shields.io/github/license/zce/renovate-config-zce.svg
+[license-img]: https://img.shields.io/github/license/zce/renovate-config-zce.svg
 [license-url]: https://github.com/zce/renovate-config-zce/blob/master/LICENSE
-[dependency-image]: https://img.shields.io/david/zce/renovate-config-zce.svg
+[dependency-img]: https://img.shields.io/david/zce/renovate-config-zce.svg
 [dependency-url]: https://david-dm.org/zce/renovate-config-zce
-[devdependency-image]: https://img.shields.io/david/dev/zce/renovate-config-zce.svg
+[devdependency-img]: https://img.shields.io/david/dev/zce/renovate-config-zce.svg
 [devdependency-url]: https://david-dm.org/zce/renovate-config-zce?type=dev
-[style-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
-[style-url]: http://standardjs.com
+[style-img]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[style-url]: https://standardjs.com
