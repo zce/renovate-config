@@ -17,18 +17,18 @@
 {
   "renovate": {
     "extends": [
-      "zce"
+      "github>zce/renovate-config"
     ]
   }
 }
 ```
 
-Or in the project root directory `renovate.json`:
+Or in the project root directory or `.github` directory `renovate.json`:
 
 ```json
 {
   "extends": [
-    "zce"
+    "github>zce/renovate-config"
   ]
 }
 ```
