@@ -1,5 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Default base configuration for zce",
-  "extends": ["config:base"]
+  "description": "Shareable renovate config preset for zce",
+  "extends": ["config:recommended"]
 }
